@@ -1,21 +1,15 @@
-// Prompt user to begin game
+
 const choices = ["rock","paper","scissors"]
 
-function getPlayerchoice() {
-   let playerChoice = prompt("Make a selection");
-    return playerChoice
-}
-
-getPlayerchoice()
+let playerChoice = prompt("Make a selection")
 
 function getComputerchoice() {
     let computerChoice = choices[Math.floor(Math.random() * choices.length)];
     return computerChoice;
  }
- 
- getComputerchoice()
 
-const playerChoice = getPlayerchoice()
+getComputerchoice()
+
 const computerChoice = getComputerchoice()
 
 function checkWinner(playerChoice, computerChoice) {
@@ -42,11 +36,3 @@ checkWinner(playerChoice, computerChoice)
 console.log("game over")
 
 
-
-
-
-
-// Create options 3 rock paper scissors
-// Allow myself to somehow choose one of those options
-// When I choose one of those options, the computer also chooses one of those options randomly
-// the options are compared and the winner is decided
