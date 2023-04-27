@@ -10,7 +10,7 @@ function getComputerchoice() {
 
 getComputerchoice()
 
-const computerChoice = getComputerchoice()
+let computerChoice = getComputerchoice()
 
 function checkWinner(playerChoice, computerChoice) {
     if (playerChoice == computerChoice) {
@@ -22,7 +22,7 @@ function checkWinner(playerChoice, computerChoice) {
             return console.log("Player wins!")
     }
     else {
-        return console.log("Computer wins!")
+        return console.log("Computer wins! " + computerChoice + " beats " + playerChoice)
     }
 }
 
