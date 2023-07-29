@@ -1,0 +1,38 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    gap: 10px;
+}
+
+.option {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 3rem;
+}
+
+.option:hover {
+    transform: scale(1.3);
+    transition: 100ms;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.computer {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.scoring {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
