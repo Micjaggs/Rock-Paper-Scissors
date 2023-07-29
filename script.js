@@ -54,6 +54,7 @@ function eventHandler(e) {
           roundCount = 0; 
           playerScore = 0;
           compScore = 0;
+          tieGame = 0;
         }
 }
 
