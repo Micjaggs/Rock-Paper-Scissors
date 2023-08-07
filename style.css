@@ -36,3 +36,8 @@
     margin-top: 25px;
 }
 
+.reset {
+    display: flex;
+    justify-content: center;
+    margin-top: 2cm;
+}

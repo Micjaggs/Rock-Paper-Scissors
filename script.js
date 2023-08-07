@@ -1,6 +1,8 @@
 // RPS Selection buttons 
 const selectionButtons = document.querySelectorAll('[data-selection]')
 
+
+
 // Computer and user selection display in the DOM
 const yourChoice = document.getElementById('you')
 const computerChoice = document.getElementById('computer')
@@ -82,6 +84,13 @@ function playGame(playChoice, compChoice) {
     
 
 
+// Refresh button
+const refreshButton = document.querySelector('.refresh')
 
+refreshButton.addEventListener('click', reload)
+
+function reload() {
+    location.reload()
+}
      
 
